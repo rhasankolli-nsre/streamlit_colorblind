@@ -2,7 +2,6 @@ from PIL import Image
 import numpy as np
 import streamlit as st
 
-
 ## LMS Daltonization
 def rgb_to_lms(img):
     """
@@ -111,9 +110,31 @@ def main():
 
     st.title("Shot's Colorblind Image Test")
 
+    sample_image1_path = 'images/sample_image_1.jpg'
+    sample_image2_path = 'images/sample_image_2.png'
+    
     with st.sidebar:
         uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
-
+        
+        sample_image1 = Image.open(sample_image1_path)
+        st.image(sample_image1, use_column_width=True)
+        
+        colA1, colA2, colA3 = st.columns([1,3,1])
+        with colA2:
+        
+            if st.button("Use Sample #1"):
+                uploaded_file = sample_image1_path
+        
+        
+        sample_image2 = Image.open(sample_image2_path)
+        st.image(sample_image2, use_column_width=True)
+        
+        colB1, colB2, colB3 = st.columns([1,3,1])
+        with colB2:
+        
+            if st.button("Use Sample #2"):
+                uploaded_file = sample_image2_path
+        
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
         np_image = np.array(image)  # Convert PIL image to NumPy array for processing
