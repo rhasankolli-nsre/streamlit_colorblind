@@ -1,4 +1,4 @@
 streamlit
 numpy
 colorblind
-opencv-python
+pillow
