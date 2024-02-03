@@ -32,7 +32,6 @@ cd streamlit_colorblind
 **Setup a virtual environment (Optional)**
 
 ```bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
 ```
@@ -40,7 +39,6 @@ source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
 **Install the dependencies**
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 
@@ -48,7 +46,6 @@ pip install -r requirements.txt
 **With Streamlit**
 
 ```bash
-Copy code
 streamlit run app.py
 ```
 
@@ -57,14 +54,12 @@ streamlit run app.py
 **Build the Docker image:**
 
 ```bash
-Copy code
 docker build -t colorblindness-sim-streamlit .
 ```
 
 **Run the Docker container:**
 
 ```bash
-Copy code
 docker run -p 8501:8501 colorblindness-sim-streamlit
 ```
 
