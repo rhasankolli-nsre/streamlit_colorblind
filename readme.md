@@ -22,14 +22,14 @@ Before you begin, ensure you have the following tools installed on your system:
 
 ### Installation
 
-1. **Clone the repository**
+**Clone the repository**
 
-   ```bash
-   git clone https://github.com/rhasankolli-nsre/streamlit_colorblind.git
-   cd streamlit_colorblind
-    ```
+```bash
+git clone https://github.com/rhasankolli-nsre/streamlit_colorblind.git
+cd streamlit_colorblind
+```
 
-Set up a virtual environment (optional)
+**Setup a virtual environment (Optional)**
 
 ```bash
 Copy code
@@ -37,30 +37,31 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
 ```
 
-Install the dependencies
+**Install the dependencies**
 
 ```bash
 Copy code
 pip install -r requirements.txt
 ```
 
-Running the Application
-With Streamlit
+**Running the Application**
+**With Streamlit**
 
 ```bash
 Copy code
 streamlit run app.py
 ```
 
-With Docker
+**With Docker**
 
-Build the Docker image:
+**Build the Docker image:**
 
 ```bash
 Copy code
 docker build -t colorblindness-sim-streamlit .
 ```
-Run the Docker container:
+
+**Run the Docker container:**
 
 ```bash
 Copy code
@@ -69,19 +70,19 @@ docker run -p 8501:8501 colorblindness-sim-streamlit
 
 Visit http://localhost:8501 in your web browser to view the app.
 
-Using the Application
+**Using the Application**
+
 Upload an Image: Click the "Upload" button in the sidebar to upload an image from your computer.
 Select a Simulation: Choose a type of colorblindness simulation from the provided options.
 View Simulated Image: The transformed image will be displayed alongside the original for comparison.
-Contributing
+
+**Contributing**
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Please refer to the CONTRIBUTING.md file for more information.
-
-License
+**License**
 This project is licensed under the APACHE 2.0 License.
 
-Acknowledgments
+**Acknowledgments**
 Hat tip to anyone whose code was used
 Inspiration
 etc
