@@ -68,8 +68,7 @@ Visit http://localhost:8501 in your web browser to view the app.
 **Using the Application**
 
 Upload an Image: Click the "Upload" button in the sidebar to upload an image from your computer.
-Select a Simulation: Choose a type of colorblindness simulation from the provided options.
-View Simulated Image: The transformed image will be displayed alongside the original for comparison.
+View Simulated Image(s): The transformed image(s) will be displayed alongside the original for comparison.    
 
 **Contributing**
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
