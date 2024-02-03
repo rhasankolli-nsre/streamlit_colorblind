@@ -27,7 +27,7 @@ Before you begin, ensure you have the following tools installed on your system:
    ```bash
    git clone https://github.com/rhasankolli-nsre/streamlit_colorblind.git
    cd streamlit_colorblind
-```
+    ```
 
 Set up a virtual environment (optional)
 
@@ -36,6 +36,7 @@ Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
 ```
+
 Install the dependencies
 
 ```bash
