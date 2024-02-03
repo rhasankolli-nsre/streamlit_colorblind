@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Before you begin, ensure you have the following tools installed on your system:
 
-- Python 3.6 or later
+- Python 3.10 or later
 - Docker (optional, for containerization)
 - Git
 
