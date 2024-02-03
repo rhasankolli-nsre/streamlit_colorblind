@@ -66,7 +66,7 @@ docker run -p 8501:8501 colorblindness-sim-streamlit
 
 Visit http://localhost:8501 in your web browser to view the app.
 
-### Using the Application
+## Using the Application
 
 Upload an Image: Click the "Upload" button in the sidebar to upload an image from your computer.
 View Simulated Image(s): The transformed image(s) will be displayed alongside the original for comparison.    
