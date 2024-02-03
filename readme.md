@@ -1,6 +1,6 @@
 # Colorblindness Simulation Streamlit App
 
-This Streamlit application allows users to upload an image and transform it to simulate various forms of colorblindness. It's designed to give people a better understanding of how colorblind individuals perceive colors. The application supports multiple simulations, including Protanopia, Deuteranopia, and Tritanopia. It also creates a Grayscale image.
+This Streamlit application allows users to upload an image and transform it to simulate various forms of colorblindness. It's designed to give people a better understanding of how colorblind individuals perceive colors. The application supports multiple simulations, including Protanopia, Deuteranopia, and Tritanopia, and Achromatopsia.
 
 ## Features
 
