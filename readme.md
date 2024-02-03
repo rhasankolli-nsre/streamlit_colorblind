@@ -29,31 +29,31 @@ Before you begin, ensure you have the following tools installed on your system:
    cd streamlit_colorblind
 Set up a virtual environment (optional)
 
-bash
+```bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
 Install the dependencies
 
-bash
+```bash
 Copy code
 pip install -r requirements.txt
 Running the Application
 With Streamlit
 
-bash
+```bash
 Copy code
 streamlit run app.py
 With Docker
 
 Build the Docker image:
 
-bash
+```bash
 Copy code
 docker build -t colorblindness-sim-streamlit .
 Run the Docker container:
 
-bash
+```bash
 Copy code
 docker run -p 8501:8501 colorblindness-sim-streamlit
 Visit http://localhost:8501 in your web browser to view the app.
