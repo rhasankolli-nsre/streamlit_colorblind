@@ -52,13 +52,13 @@ streamlit run app.py
 
 ### With Docker
 
-### Build the Docker image:
+***Build the Docker image:***
 
 ```bash
 docker build -t colorblindness-sim-streamlit .
 ```
 
-### Run the Docker container:
+***Run the Docker container:***
 
 ```bash
 docker run -p 8501:8501 colorblindness-sim-streamlit
@@ -66,20 +66,20 @@ docker run -p 8501:8501 colorblindness-sim-streamlit
 
 Visit http://localhost:8501 in your web browser to view the app.
 
-## Using the Application
+### Using the Application
 
 Upload an Image: Click the "Upload" button in the sidebar to upload an image from your computer.
 View Simulated Image(s): The transformed image(s) will be displayed alongside the original for comparison.    
 
 ## All The Other Things
 
-## Contributing
+### Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-## License
+### License
 This project is licensed under the APACHE 2.0 License.
 
-## Acknowledgments
+### Acknowledgments
 Hat tip to anyone whose code was used
 Inspiration
 etc
