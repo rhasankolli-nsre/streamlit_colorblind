@@ -161,7 +161,7 @@ def main():
             st.image(simulated_img_d_pil, caption='Simulated Deuteranopia', use_column_width=True)
         with colA2:
             st.image(simulated_img_t_pil, caption='Simulated Tritanopia', use_column_width=True)
-            st.image(grayscale_image, caption='Grayscale', use_column_width=True)
+            st.image(grayscale_image, caption='Simluated Achromascopia', use_column_width=True)
 
 if __name__ == "__main__":
     main()
